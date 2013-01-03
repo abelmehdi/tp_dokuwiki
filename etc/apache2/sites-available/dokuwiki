@@ -1,0 +1,7 @@
+Alias /dokuwiki         /var/www/dokuwiki
+<Directory /var/www/dokuwiki/>
+        Options +FollowSymLinks
+        AllowOverride All
+        order allow,deny
+        allow from all
+</Directory>

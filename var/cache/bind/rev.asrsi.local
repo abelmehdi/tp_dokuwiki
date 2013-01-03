@@ -1,0 +1,13 @@
+$TTL 86400
+@	IN	SOA	dev.lpasrsi.home.	root.dev.lpasrsi.home. (
+			1 ; numéro de série
+			1w ; rafraîchissement
+			1d ; nouvel essai
+			4w ; expiration (quatre semaines)
+			1d ; minimum d’une journée
+)
+
+@ IN NS dev.lpasrsi.home.
+70 IN PTR dev.lpasrsi.home.
+70 IN PTR km.prod.lpasrsi.home.
+
